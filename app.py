@@ -30,6 +30,8 @@ if st.button("Submit"):
 
         st.success(f"Mood detected: **{mood.upper()}**")
         st.info(get_affirmation(mood))
+        st.write("DEBUG - Mood Detected:", mood)
+
 
 # Mood Trend
 if st.checkbox("📊 Show Mood Trend"):
